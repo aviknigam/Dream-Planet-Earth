@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.flex {
+    display: flex;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+/********** WRAPPER **********/
+    #wrapper {
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1490617033217-c50a46c169ec') no-repeat center bottom fixed;
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1490617033217-c50a46c169ec') no-repeat center bottom fixed;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1490617033217-c50a46c169ec') no-repeat center bottom fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: #FFF;
+    	height: 100%;
+        overflow: hidden;
+        position: relative;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-heading {
+        font-size: 70px;
+        font-weight: 100;
+        text-align: center;
+        width: 100%;
+    }
+
+    #wrapper a {
+        color: #FFF;
+        font-weight: 300;
+    }
+
+/********** Instagram Insert **********/
+    .iginsert {
+        width: 80%;
+        margin: auto;
+    }
+
+    .igimg {
+        width: 33.3333%;
+        border-image: 0;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+    
